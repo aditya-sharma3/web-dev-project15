@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Poppins';
+    background-color: #111111;
+}
+
+.navigation-section {
+    
+    height: 95vh;
+}
+
+.link-to {
+    color: #ffffff;
+}
+
+.link-to:hover{
+    color: #c91b28;
+}
+
+.toggle-btn {
+    background-color: #c91b28;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.author-intro h3{
+    color: #c91b28;
+    margin-top: 30%;
+}
+
+.author-intro h1, p {
+    color: #ffffff;
+}
+
+.about-me {
+    padding: 2% 5%;
+    background-color: #c91b28;
+    border: none;
+    color: #ffffff;
+}
+
+/* Card images */
+
+.card-section {
+    padding: 3% 3%;
+}
+
+.cards-image {
+    width: 15%;
+    position: relative;
+    margin: auto;
+}
+
+.my-card {
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+.my-active-card {
+    background-color: #c91b28;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.know-more {
+    text-decoration: none;
+    color: #c91b28;
+}
+
+.know-more:hover {
+    color: #CAD5E2;
+}
+
+.know-more-red {
+    color: #ffffff;
+}
+
+/* Counting section */
+
+.counting-section {
+    padding: 5% 0%;
+}
+
+.counter-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 5%;
+    text-align: center;
+}
+
+.exper-column h1{
+    font-size: 3rem;
+    color: #c91b28;
+    font-weight: 600;
+    /* padding: 0% 4%; */
+}
+
+.exper-column {
+    text-align: center;
+}
+
+.exper-column h3 {
+    color: #ffffff;
+}
+
+.counter-1 h2 {
+    color: #c91b28;
+}
+
+.counter-1 {
+    background-color: #1e1e1e;
+    padding: 3% 5%;
+}
+
+.featured h1 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.featured h3 {
+    font-size: 1rem;
+    color:#ffffff ;
+}
+
+.featured-container {
+    padding-top: 4%;
+}
+
+.button-col {
+    text-align: right;
+}
+
+.button-col button {
+    padding: 2% 5%;
+    background-color: #c91b28;
+    color: #ffffff;
+    border: none;
+}
+
+.project-card {
+    background-color: #1c1c1c;
+}
+
+.project-section-two {
+    padding-top: 5%;
+}
+
+.height {
+    padding: 2% 5%;
+}
+
+/* Contact us */
+.contact-us {
+    padding: 5%;
+    margin-top: 5%;
+    background-color: #1c1c1c;
+}
+
+.contact {
+    padding: 2% 5%;
+    background-color: #c91b28;
+    border: none;
+    color: #ffffff;
+}
+
+.col-contact {
+    text-align: right;
+}
+
+.col-work {
+    color: #ffffff;
+}
+
+.footer-img{
+    width: 10%;
+}
+
+footer {
+    padding: 3% 5%;
+    background-color: #1c1c1c;
+}
+
+.footer-images {
+    text-align: right;
+}
+
+.bottom-nav {
+    color: #ffffff;
+    display: inline;
+    margin-right: 3%;
+}
+
+.col-bottom {
+    text-align: center;
+    
+}
+
+.bottom-links {
+    padding: 2% 5%;
+
+}
